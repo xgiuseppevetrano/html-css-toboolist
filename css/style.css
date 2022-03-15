@@ -84,15 +84,18 @@ h1 {
 }
 
 .tag {
-    display: inline-block;
     color: white;
     border-radius: 12px;
-    padding: 8px;
+    padding: 6px;
     font-size: 12px;
 }
 
 .today, .upcoming {
     margin-top: 20px;
+}
+
+.task {
+    line-height: 35px;
 }
 
 .tag-blue {
