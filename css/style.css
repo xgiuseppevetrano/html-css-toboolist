@@ -24,11 +24,20 @@ h1 {
     font-size: 42px;
 }
 
-.container {
+.botton, .task-container {
     width: 800px;
     margin: 0 auto;
     background-color: white;
     margin-top: 50px;
+}
+
+.botton {
+    margin-top: 50px;
+}
+
+.task-container {
+    margin-top: 5px;
+    padding: 25px 40px;
 }
 
 .botton {
@@ -49,4 +58,27 @@ h1 {
     padding: 5px;
     border: 1px solid lightgray;
     border-radius: 5px;
+}
+
+.check {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    color: #64C0A9;
+    border: 1px solid #64C0A9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.tag {
+    display: inline-block;
+    color: white;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.tag-blue {
+    background-color: #45ABEA;
+    font-size: 12px;
 }
