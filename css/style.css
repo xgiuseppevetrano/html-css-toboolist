@@ -38,6 +38,7 @@ h1 {
 .task-container {
     margin-top: 5px;
     padding: 25px 40px;
+    font-size: 15px;
 }
 
 .botton {
@@ -62,13 +63,24 @@ h1 {
 
 .check {
     display: inline-block;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     color: #64C0A9;
     border: 1px solid #64C0A9;
     border-radius: 50%;
     text-align: center;
-    line-height: 25px;
+    line-height: 20px;
+}
+
+.cross {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    color: #EC6C67;
+    border: 1px solid #EC6C67;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
 }
 
 .tag {
@@ -76,9 +88,33 @@ h1 {
     color: white;
     border-radius: 12px;
     padding: 8px;
+    font-size: 12px;
+}
+
+.today, .upcoming {
+    margin-top: 20px;
 }
 
 .tag-blue {
     background-color: #45ABEA;
-    font-size: 12px;
+}
+
+.tag-purple {
+    background-color: #9C72E4;
+}
+
+.tag-teal {
+    background-color: #97D9CB;
+}
+
+.tag-orange {
+    background-color: #F29E33;
+}
+
+.tag-pink {
+    background-color: #D863A1;
+}
+
+.tag-green {
+    background-color: #B0C926;
 }
