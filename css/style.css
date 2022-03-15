@@ -23,3 +23,30 @@ h1 {
     vertical-align: middle;
     font-size: 42px;
 }
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.botton {
+    padding: 15px 40px 8px;
+} 
+
+#add-task {
+    background-color: #47ADF1;
+    color: white;
+    padding: 5px;
+    border: 1px solid #47ADF1;
+    border-radius: 5px;
+}
+
+#add-section {
+    background-color: white;
+    color: lightgray;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
